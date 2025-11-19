@@ -1,5 +1,7 @@
-Hello thanks for supporting my OS try i wish u will have a good day :) ...
+Thanks for supporting my OS 😁
 
 
-.asm files are for looking at codes you can put your own things and convert them .bin to use it and you can post it
-you can transform .asm to .bin with
+.asm files are for looking at codes you can use it on your own code
+you can compile .asm to .bin with 
+nasm -f bin notepadoscodefile.asm -o notepadOS.bin
+code, it works in MacOS Windows Linux and Termux if you installed nasm compiler
