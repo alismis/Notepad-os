@@ -1,7 +1,7 @@
 Thanks for supporting my OS 😁
 
 
-.asm files are for looking at codes you can use it on your own code
+.asm files are for looking at codes and for compile
 
 
 you can compile .asm to .bin with 
