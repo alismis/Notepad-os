@@ -1,21 +1,23 @@
-# LXQt desktop environment
+# LXQt desktop environment (lightweight Qt desktop)
 lxqt-core
-lxqt
+openbox
 sddm
 
 # X server
-xorg
 xserver-xorg
+xserver-xorg-core
 xinit
+
+# Fonts & theming (kept explicitly since recommends are disabled)
+fonts-dejavu
+adwaita-icon-theme
 
 # Network management
 network-manager
 network-manager-gnome
 
-# Common applications
-firefox-esr
-featherpad
+# Core LXQt applications
 pcmanfm-qt
 qterminal
-gnome-disk-utility
-mousepad
+featherpad
+falkon

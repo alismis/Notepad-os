@@ -18,12 +18,12 @@ lb config noauto \
 	--security true \
 	--updates true \
 	--apt-indices false \
-	--apt-recommends true \
+	--apt-recommends false \
 	--debian-installer none \
 	--iso-application "NotepadOS" \
 	--iso-preparer "NotepadOS build system; https://github.com/alismis/Notepad-os" \
 	--iso-publisher "alismis" \
 	--iso-volume "NotepadOS live" \
 	--memtest none \
-	--bootappend-live "boot=live components hostname=notepados username=notepad quiet splash" \
+	--bootappend-live "boot=live components hostname=notepados quiet splash" \
 	"${@}"
