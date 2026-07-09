@@ -1,0 +1,24 @@
+# live-build generated artifacts (do not commit)
+.build/
+cache/
+chroot/
+chroot.files
+binary/
+binary.*
+source/
+source.*
+config/binary
+config/bootstrap
+config/chroot
+config/common
+config/source
+config/source-selection
+*.iso
+*.img
+*.log
+*.tar
+*.zsync
+*.contents
+*.packages
+*.files
+local/

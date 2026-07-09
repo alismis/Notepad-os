@@ -1,0 +1,21 @@
+# LXQt desktop environment
+lxqt-core
+lxqt
+sddm
+
+# X server
+xorg
+xserver-xorg
+xinit
+
+# Network management
+network-manager
+network-manager-gnome
+
+# Common applications
+firefox-esr
+featherpad
+pcmanfm-qt
+qterminal
+gnome-disk-utility
+mousepad
