@@ -10,4 +10,5 @@ firmware-linux-free
 # Base utilities
 sudo
 locales
-task-english
+dbus-x11
+xdg-utils

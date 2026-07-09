@@ -18,7 +18,7 @@ lb config noauto \
 	--security true \
 	--updates true \
 	--apt-indices false \
-	--apt-recommends true \
+	--apt-recommends false \
 	--debian-installer none \
 	--iso-application "NotepadOS" \
 	--iso-preparer "NotepadOS build system; https://github.com/alismis/Notepad-os" \
