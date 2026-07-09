@@ -2,6 +2,9 @@
 live-boot
 live-config
 live-config-systemd
+# Required so live-config creates the live user account (a live-config
+# Recommends, which is dropped because recommends are disabled).
+user-setup
 
 # Firmware & kernel
 linux-image-amd64

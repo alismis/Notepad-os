@@ -1,5 +1,6 @@
 # LXQt desktop environment (lightweight Qt desktop)
 lxqt-core
+openbox
 sddm
 
 # X server
