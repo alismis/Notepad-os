@@ -1,0 +1,29 @@
+#!/bin/sh
+
+# NotepadOS live-build configuration.
+# Debian-based (bookworm) live ISO with the LXQt desktop environment.
+
+set -e
+
+lb config noauto \
+	--distribution bookworm \
+	--architecture amd64 \
+	--archive-areas "main contrib non-free non-free-firmware" \
+	--compression xz \
+	--mirror-bootstrap "http://deb.debian.org/debian/" \
+	--mirror-chroot "http://deb.debian.org/debian/" \
+	--mirror-chroot-security "http://security.debian.org/debian-security/" \
+	--mirror-binary "http://deb.debian.org/debian/" \
+	--mirror-binary-security "http://security.debian.org/debian-security/" \
+	--security true \
+	--updates true \
+	--apt-indices false \
+	--apt-recommends true \
+	--debian-installer none \
+	--iso-application "NotepadOS" \
+	--iso-preparer "NotepadOS build system; https://github.com/alismis/Notepad-os" \
+	--iso-publisher "alismis" \
+	--iso-volume "NotepadOS live" \
+	--memtest none \
+	--bootappend-live "boot=live components hostname=notepados username=notepad quiet splash" \
+	"${@}"

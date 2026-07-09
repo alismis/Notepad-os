@@ -1,0 +1,13 @@
+# Live system tooling
+live-boot
+live-config
+live-config-systemd
+
+# Firmware & kernel
+linux-image-amd64
+firmware-linux-free
+
+# Base utilities
+sudo
+locales
+task-english
